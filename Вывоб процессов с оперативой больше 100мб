@@ -1,0 +1,2 @@
+tasklist /FI "memusage gt 100000" \\вывод процессорв
+wmic product get name \\вывод установленных програм 
