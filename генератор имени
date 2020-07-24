@@ -1,0 +1,16 @@
+<?php
+$letters = array (
+	'ма',
+	'ся',
+	'ня'
+	);
+	$name = '';
+	for ($i=1; $i <=4; $i++) {
+		$random = array_rand($letters);
+		echo "вывод слога $random\n";
+	$randomtext = ($letters[$random]);
+		echo $randomtext;
+		$name=$name .= $randomtext;
+	}
+	echo "кота зовут $name";
+	
