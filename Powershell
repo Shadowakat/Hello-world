@@ -1,0 +1,1 @@
+ipconfig | select-string "IPv4" - вывод строки где есть это слово.
